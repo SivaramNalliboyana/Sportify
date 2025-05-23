@@ -2,10 +2,7 @@ import Header from "@/components/header";
 
 
 export default function Chat(){
-
-   
-
-      
+     
     return (
       <div className="h-screen">
         <Header />
