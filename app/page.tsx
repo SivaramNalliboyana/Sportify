@@ -13,11 +13,11 @@ const myList = ['item1', 'item2', '3'];
   const mySportsList = ['item1', 'item2' , '3'];
 
   const myComponentList = myList.map((item, index) => (
-    <EventCard width="w-123" />
+    <EventCard width="w-123" key={index}/>
   ));
 
   const sportsList = mySportsList.map((item, index) => (
-    <SportsCard />
+    <SportsCard key={index}/>
   ));
 
 

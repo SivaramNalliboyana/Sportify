@@ -7,7 +7,7 @@ export default function Book(){
       const mySportsList = ['item1', 'item2' , '3'];
     
       const myComponentList = myList.map((item, index) => (
-        <EventCard width="w-130"/>
+        <EventCard width="w-130" key={index}/>
       ));
       
     return (
