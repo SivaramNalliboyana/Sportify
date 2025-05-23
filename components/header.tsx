@@ -7,7 +7,7 @@ export default function Header() {
             <nav>
                 <ul className="flex space-x-6 text-white font-semibold text-lg">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/play">Play</a></li>
+                    <li><a href="/dashboard">Dashboard</a></li>
                     <li><a href="/book">Book</a></li>
                     <li><a href="/contact">Chats</a></li>
                 </ul>

@@ -1,15 +1,18 @@
 import EventCard from "@/components/eventcard";
+import Header from "@/components/header";
 
 export default function Book(){
 
-    const myList = ['item1', 'item2', '3'];
+    const myList = ['item1', 'item2', '3' ,'4'];
       const mySportsList = ['item1', 'item2' , '3'];
     
       const myComponentList = myList.map((item, index) => (
-        <EventCard width="w-full"/>
+        <EventCard width="w-130"/>
       ));
       
     return (
+      <div>
+            <Header />
         <div className="p-20">
             <div className="text-[32px] text-white font-semibold text-center justify-center">
             Search for venues
@@ -37,12 +40,14 @@ export default function Book(){
               " placeholder="Search here.."></input>
         </form>
         
-
-        <div mt-10>
+        <div className="flex justify-center">
+        <div className="grid grid-cols-2 auto-rows-auto gap-20">
             {myComponentList}
+        </div>
         </div>
 
         
+        </div>
         </div>
     )
 }
