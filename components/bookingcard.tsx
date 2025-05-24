@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { MdSportsCricket } from "react-icons/md";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
@@ -21,7 +22,9 @@ export default function BookingCard() {
             </div>
 
             <div className="w-[5%] flex justify-center items-center order-last mr-5">
-                <MdOutlineKeyboardDoubleArrowRight  className="text-[#22334F] text-[50px]"/>
+                <Link href={`play/${1}`}>
+                    <MdOutlineKeyboardDoubleArrowRight  className="text-[#22334F] text-[50px]"/>
+                </Link>
             </div>
 
             
