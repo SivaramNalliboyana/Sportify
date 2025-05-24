@@ -31,7 +31,7 @@ export default function DisplayPage(){
             </div>
 
             <div className="flex justify-center items-center h-20 bg-[#22334F] mt-10">
-                <div className="text-white text-[22px] font-semibold">Book now</div>
+                <button className="text-white text-[22px] font-semibold">Book now</button>
             </div>
         </div>
          </div>

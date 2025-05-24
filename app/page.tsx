@@ -10,7 +10,7 @@ import SportsCard from "@/components/sportscard";
 
 export default function Home() {
 const myList = ['item1', 'item2', '3'];
-  const mySportsList = ['item1', 'item2' , '3'];
+  const mySportsList = ['item1', 'item2' , '3', '4', '5'];
 
   const myComponentList = myList.map((item, index) => (
     <EventCard width="w-123" key={index}/>
@@ -37,8 +37,10 @@ const myList = ['item1', 'item2', '3'];
 
     <div className="order-first text-[20px] font-semibold mt-12">Join a game nearby</div>
 
-    <div className="flex flex-row justify-between">
-      {sportsList}
+    <div className="relative flex items-center">
+      <div id='slider' className="w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide">
+        {sportsList}
+      </div>
     </div>
 
     </div>
