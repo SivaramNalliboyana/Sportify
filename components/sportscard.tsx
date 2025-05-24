@@ -5,7 +5,7 @@ import { IoLocation } from "react-icons/io5";
 
 export default function SportsCard(){
     const img = "https://images.tagesschau.de/image/2d3df85e-c25e-4d44-be0a-865e6a2985d9/AAABlRg3cYk/AAABkZLiamM/16x9-1920/elon-musk-242.jpg";
-    return <div className="inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 outline-2 outline-[#22334F] rounded-xl bg-white mr-10 w-123 h-65 mt-10 p-5">
+    return <div className="inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 outline-2 outline-[#22334F] rounded-xl bg-white mr-5 w-123 h-65 mt-10 p-5 mb-10 ml-5">
         <div className="outline-1 outline-black rounded-xl bg-white w-70 h-10  p-2.5">
             <div className="flex flex-row justify-evenly">
                 <MdSportsCricket className="text-gray-700 font-bold" />
